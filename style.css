@@ -1,0 +1,155 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    
+}
+.Logo{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ul{
+    display: flex;
+    
+    list-style-type: none;
+}
+li{
+    padding-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Top{
+    display: flex;
+    
+    background-color: #1F2937;
+    color: white;
+    padding: 50px;
+}
+.subhead{
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+}
+.secondaryText{
+    font-size: 18px;
+    display: flex;
+}
+button{
+    border: 5px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+button.sign{
+    
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    
+    width: 100px;
+        height: 30px;
+}
+.image{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width:  500px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 2px solid royalblue;
+}
+.imageTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.pic{
+    width:  150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 2px solid royalblue;
+}
+
+.ad{
+    background: royalblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 50px;
+    margin: 40px;
+}
+.Heading{
+    font-size: 24px;
+}
+.adtetext{
+    font-size: 12px;
+}
+.ad button{
+
+    display: flex;
+    
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px;
+    
+}
+.quoteText{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.Quoted{
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
